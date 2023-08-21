@@ -1,0 +1,34 @@
+{
+  "id": 0,
+  "name": "Price Matrix 0",
+  "ruleSets": [
+    {
+      "ruleSetId": 0,
+      "priority": 0,
+      "priceBandCodes": "test-test-test",
+      "dateSelector": {
+        "performancesFrom": "2020-01-05",
+        "performancesTo": "2020-01-05",
+        "bookingsFrom": "2020-01-05",
+        "bookingsTo": "2020-01-05",
+        "selectedPerformanceTimes": [
+          { "type": 0, "dayOfWeek": 1 },
+          { "type": 1, "dayOfWeek": 2 }
+        ]
+      },
+      "priceCommissionable": {
+        "priceSelling": 1,
+        "bookingFeeAbsolute": null,
+        "bookingFeePercent": null
+      },
+      "priceNet": {
+        "priceSelling": null,
+        "bookingFeeAbsolute": null,
+        "bookingFeePercent": null
+      },
+      "insideCommissionRate": 0,
+      "note": "string",
+      "offerCode": "string"
+    }
+  ]
+}
